@@ -1,0 +1,52 @@
+.main-div-for-sort-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 98%;
+  margin: 2% auto;
+}
+
+.sort-style {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-end;
+  width: 64%;
+
+  .sort-component,
+  .sort-component-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 36%;
+    margin: 0 1%;
+    font-size: 1rem;
+  }
+
+  .input-space {
+    background-color: white;
+    width: 56%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sort-component,
+  .sort-component-type {
+    width: 40%;
+  }
+}
+
+@media (max-width: 414px) {
+  .sort-style {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .sort-component,
+    .sort-component-type {
+      width: 100%;
+      margin: 1% 0;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.modal-window-body {
+  display: flex;
+  align-items: center;
+  min-height: 17vh;
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+.modal-window-delete {
+  margin: 14% 20%;
+  width: 60%;
+  background-color: white;
+  padding: 0;
+}

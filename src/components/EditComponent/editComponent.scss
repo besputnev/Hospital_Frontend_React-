@@ -1,0 +1,98 @@
+.modal-window {
+  margin: 10% 20%;
+  width: 60%;
+  background-color: white;
+  padding: 0;
+}
+
+.button-container-modal-window {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5%;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 89px;
+
+  .save-button {
+    background: rgba(197, 233, 255, 0.72);
+    border: 2px solid rgba(197, 233, 255, 0.72);
+    border-radius: 4px;
+    height: 40px;
+    margin-right: 2%;
+    width: 20%;
+    max-width: 146px;
+    color: black;
+  }
+
+  .cancel-button {
+    background: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: black;
+    border-radius: 4px;
+    height: 40px;
+    margin-right: 2%;
+    max-width: 146px;
+    width: 20%;
+  }
+}
+
+.modal-window-head {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 90px;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-left: 5%;
+  }
+}
+
+.text-and-input-modal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+
+  .input-container {
+    width: 90%;
+
+    .name-patient-modal {
+      width: 100%;
+    }
+
+    .text-input-doctor-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      color: black;
+      margin-top: 2%;
+
+      .name-doctor {
+        width: 100%;
+      }
+    }
+
+    .text-input-date-container {
+      margin-top: 2%;
+    }
+
+    .date-file {
+      width: 100%;
+    }
+
+    .text-input-complaints-container {
+      margin-top: 2%;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .modal-window {
+    margin: 5% auto;
+    width: 90%;
+  }
+}

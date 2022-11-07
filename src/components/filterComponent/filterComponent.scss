@@ -1,0 +1,22 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .input-filter {
+    width: 30%;
+    background-color: white;
+  }
+
+  .filter-button {
+    background-color: white;
+    color: black;
+    height: 50px;
+  }
+
+  svg {
+   width: 40px;
+   height: 40px;
+  }
+}
